@@ -7,9 +7,10 @@ tar xzf go1.8.linux-amd64.tar.gz
 apt-get update
 apt-get install -y golang
 # Set Paths.
-# export GOROOT=/libpostal/go
-# export GOPATH=/libpostal/workspace
-# export PATH=$PATH:/libpostal/go/bin
+
+
+export GOPATH=$HOME/go
+
 
 # Get go script.
 go get github.com/eazyfin/libpostal-rest
