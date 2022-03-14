@@ -10,7 +10,7 @@ export GOPATH=/libpostal/workspace
 export PATH=$PATH:/libpostal/go/bin
 
 # Get go script.
-go get github.com/johnlonganecker/libpostal-rest
+go get github.com/eazyfin/libpostal-rest
 
 # Install go script.
-go install github.com/johnlonganecker/libpostal-rest
+go install github.com/eazyfin/libpostal-rest
