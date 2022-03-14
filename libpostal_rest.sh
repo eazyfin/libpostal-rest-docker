@@ -2,7 +2,8 @@
 
 cd /libpostal
 # Download Go.
-curl https://storage.googleapis.com/golang/go1.8.linux-amd64.tar.gz > go1.8.linux-amd64.tar.gz
+
+curl https://storage.googleapis.com/golang/go1.17.8.linux-arm64.tar.gz > go1.8.linux-amd64.tar.gz
 tar xzf go1.8.linux-amd64.tar.gz
 
 # Set Paths.
